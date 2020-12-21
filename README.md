@@ -1,3 +1,6 @@
+## Objective
+Human Activity Recognition ( HAR ) has wide applications in medical research and human survey system. In this project, we design a robust activity recognition system based on a smartphone. The system uses a 3-dimentional smartphone accelerometer and gyroscope to collect time series signals, from which 561 features are generated in both time and frequency domain. The feature space is reduced to 200 using PCA.Activities are classified using 6 different methods, i.e., Random Forest, Gaussian Naive Bayes, Logistic Regression, Multi-layer Perceptron, Support Vector Machine, and Extra-trees. Experiment results show that the classification rate of SVM reaches 98.26 and is robust to common positions and poses of cellphone.
+
 ## Dataset
 The dataset comprises
 of 3-axial linear acceleration and 3-axial angular velocity
